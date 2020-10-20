@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+.home {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+.home__header {
+  grid-area: header;
+  border: solid#253C59 5px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__navigation--itmem {
+  display: inline-block;
+  color: #253c59;
+  font-family: Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #253c59;
+}
+
+.home__main {
+  grid-area: main;
+  border: solid #253c59 5px;
+  height: 2000px;
+  grid-template-areas:
+    "general image general"
+    "offers offers offers"
+    "discount discount discount";
+}
+.Phusing-comfortzone {
+  border: solid #253c59;
+  height: 600px;
+  width: 65%;
+  display: flex;
+  justify-items: center;
+  grid-area: image;
+  margin: 90px;
+  background-image: url(img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.general {
+  display: flex;
+  justify-content: center;
+}
+.offers {
+  display: flex;
+  grid-area: offers;
+  justify-content: center;
+}
+.item {
+  border: solid #253c59 2px;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin: 100px;
+}
+.home__footer {
+  grid-area: footer;
+  border: solid #253c59 5px;
+  height: 100px;
+}
