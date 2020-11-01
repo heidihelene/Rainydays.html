@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+.home {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.home__header {
+  grid-area: header;
+  border: solid#253C59 5px;
+  height: 300px;
+}
+
+.header__navigation {
+  color: #253c59;
+  font-family: Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.header__navigation__item {
+  padding: 7rem;
+  display: flex;
+}
+
+.header__icons {
+  padding: 7rem;
+  font-size: 45px;
+}
+a {
+  text-decoration: none;
+  color: #253c59;
+}
+.options {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+.icons {
+  color: #253c59;
+  font-size: 50px;
+  list-style-type: none;
+}
+
+.footer__navigations {
+  color: #253c59;
+  font-size: 50px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home__footer {
+  grid-area: footer;
+  border: solid #253c59 5px;
+  height: 200px;
+}
+.contact__us {
+  height: 50px;
+  width: 200px;
+  list-style-type: none;
+  font-family: Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #253c59;
+}
+
+.footer__icons {
+  margin: 3rem;
+}

@@ -1,0 +1,145 @@
+.home__main {
+  grid-area: main;
+  border: solid #253c59 5px;
+  height: 2200px;
+  grid-template-areas:
+    "general general general"
+    "offers offers offers"
+    "discount discount discount";
+}
+.Phusing-comfortzone {
+  border: solid #253c59;
+  height: 600px;
+  width: 65%;
+  display: flex;
+  justify-items: center;
+  grid-area: image;
+  margin: 90px;
+  background-image: url(img/phusingthecomfort.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.general {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+  color: white;
+  font-family: Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  height: 80px;
+  width: 1200px;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offers {
+  display: flex;
+  grid-area: offers;
+  justify-content: center;
+}
+.new-items {
+  background-image: url(img/newitems.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+}
+.text_nt {
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-size: 30px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+}
+.hiking {
+  background-image: url(img/hiking.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+}
+.tekt_h {
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-size: 30px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+}
+.autum {
+  background-image: url(img/autum.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+}
+.text_a {
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-size: 30px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+}
+.item {
+  border: solid #253c59 2px;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin: 100px;
+}
+.jacets__discount {
+  border: solid #253c59;
+  height: 600px;
+  width: 65%;
+  grid-area: image;
+  margin: 90px;
+  background-image: url(img/discount.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.discount {
+  display: flex;
+  justify-content: center;
+}
+.text__discount {
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+  color: white;
+  font-family: Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  height: 80px;
+  width: 800px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

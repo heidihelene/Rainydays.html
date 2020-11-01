@@ -1,0 +1,95 @@
+.home__about {
+  grid-area: main;
+  border: solid #253c59 5px;
+  height: 900px;
+  grid-template-areas:
+    "about about about"
+    "info info info";
+}
+
+.info {
+  display: flex;
+  grid-area: info;
+  justify-content: center;
+}
+h5 {
+  font-family: Lexend Peta, Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin: 30px;
+  color: #253c59;
+}
+.info__text {
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  height: 15px;
+  margin: 30px;
+  color: #253c59;
+}
+.info1 {
+  border: solid #253c59 2px;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 100px;
+}
+.locations {
+  background-image: url(img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+}
+.location_text {
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-size: 30px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+}
+.brands {
+  background-image: url(img/different\ jacets.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+}
+.brads_text {
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-size: 30px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+}
+.sustainable {
+  background-image: url(img/sustainable.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+}
+.sustainable_text {
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-size: 30px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: solid #253c59;
+  background-color: #253c59;
+  opacity: 0.8;
+}
