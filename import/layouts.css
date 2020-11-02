@@ -77,3 +77,26 @@ a {
 .footer__icons {
   margin: 3rem;
 }
+@media only screen and (min-width: 600px) {
+  .home {
+    flex-direction: row;
+  }
+}
+nav {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+}
