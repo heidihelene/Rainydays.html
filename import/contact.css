@@ -1,0 +1,76 @@
+.mail__us {
+  border: solid #253c59 5px;
+  height: 1000px;
+  grid-template-areas: "Contact_info contact_mailen ";
+}
+
+.Contact_info {
+  grid-area: Contact_info;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 100px;
+}
+h6 {
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+  font-size: 40px;
+  font-family: Arsenal, Tahoma, Geneva, Verdana, sans-serif;
+  color: #253c59;
+  display: flex;
+  align-self: center;
+}
+.name {
+  border: solid #253c59 1px;
+  width: 53%;
+  height: 60px;
+  margin: 20px;
+  font-family: Arsenal, Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  color: #253c59;
+  font-size: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.mail {
+  border: solid #253c59 1px;
+  width: 53%;
+  height: 60px;
+  margin: 20px;
+  font-family: Arsenal, Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  color: #253c59;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.message {
+  border: solid #253c59 1px;
+  width: 53%;
+  height: 250px;
+  margin: 20px;
+  font-family: Arsenal, Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  color: #253c59;
+  font-size: 20px;
+}
+.send {
+  border: solid #253c59 1px;
+  width: 5%;
+  height: 30px;
+  margin: 20px;
+  font-family: Arsenal, Lexend Peta, Tahoma, Geneva, Verdana, sans-serif;
+  color: #253c59;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.contact_mailen {
+  grid-area: contact_mailen;
+  color: #253c59;
+  font-size: 550px;
+  margin: 150px;
+  position: absolute;
+  top: 350px;
+}
